@@ -34,7 +34,13 @@ $$ f'(x)= a_1 + 2a_2x + 3a_3x^2 + \cdots $$
 
 Plug in 0 for x and all other terms go to zero except a_0. For the double integral, the same thing happens except for a_1. Ultimately the equation for the coefficient boils down to: 
 
-$$ f(x) = a_0 + a_1x + a_2x^2 + \cdots$$
+$$ f(x) = a_n = \frac{1}{n!}f^{n}(0)$$
+
+## Example 1.
 
 
+![](http://s5.postimg.org/j5s06kog7/taylor_series_prob.jpg)
 
+# Taylor Theorem for Errors
+
+![](http://s5.postimg.org/99qx6xio7/residual.jpg)

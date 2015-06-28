@@ -3,7 +3,7 @@
 ###$$\sum_{n=0} ^ {\infty} \frac {f^{(n)}(a)}{n!} \, (x-a)^{n}$$
 
 
-##### The approximation of a function as an infinite sum of polynomials of all degrees, calculated from the function's derivative at a certain point.
+##### Many functions can be written as a Power Series about some point of their domain about the origin. The approximation of a function as an infinite sum of polynomials of all degrees, calculated from the function's derivative at a certain point is called the function's Taylor Series.
 
 
 $$f(a)+\frac {f'(a)}{1!} (x-a)+ \frac{f''(a)}{2!}(x-a)^2+\frac{f'''(a)}{3!}(x-a)^3+ \cdots.$$

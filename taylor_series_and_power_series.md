@@ -30,8 +30,11 @@ $$ f(x) = a_0 + a_1x + a_2x^2 + \cdots$$
 
 differentiate:
 
-$$f'(x)= a_1 + 2a_2x + 3a_3x^2 + \cdots$$
+$$ f'(x)= a_1 + 2a_2x + 3a_3x^2 + \cdots $$
 
-Plug in 0 for x and all other terms go to zero except a_0:
+Plug in 0 for x and all other terms go to zero except a_0. For the double integral, the same thing happens except for a_1. Ultimately the equation for the coefficient boils down to: 
+
+$$ f(x) = a_0 + a_1x + a_2x^2 + \cdots$$
+
 
 

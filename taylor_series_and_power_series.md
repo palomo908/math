@@ -52,3 +52,7 @@ $$ R_n(x) = f(x) - P_n(x) $$
 ### Example:
 
 ![](http://s5.postimg.org/n4p7ped3b/residue2.png)
+
+Back of the envelope estimate of error:
+
+$$ \frac{(x-c)^n+1}{5!} $$

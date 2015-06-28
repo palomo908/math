@@ -11,13 +11,12 @@
 * Span, or the reach of a set of vectors, is the space that can be represented by scaling up and down all the vector columns available to us in a matrix
 * Given a set of vectors, what other vectors can you create by adding and/or subtracting scalar multiples of those vectors. The set of vectors that you can create through these linear combinations of the original set is called the "span" of the set.
 * For example, the span of the set of two 3-d vectors is a plane
-Example: The span of the set   
+ 
 
-$$  $$ 
 
 * is all the linear combinations possible through combining both vectors, thus defining a plane in R^3 whos equation is  2x + y -3z = d
  
-####$$ A\hat{x} = \hat{b}$$:
+
 * Given a matrix A, can we solve: for every possible vector b? In other words, do the linear combinations of the column vectors fill the xy-plane (or space, in the three dimensional case)? 
 * If the answer is “no”, we say that A is a singular matrix. In this singular 
 case its column vectors are linearly dependent; all linear combinations of those 
@@ -42,6 +41,25 @@ Rn = Infinitely large set of vectors each with N components each
 * If a subset has the following 3 properties than it is a subspace:
 1) the zero vector is in the subset so 
 $$ \{0,0,0,0...0_n \} $$
+
+ $$ [1, -1, 0], V = [0, 1, -1], W = [0, 0, 1] $$ 
+
+#### Basis
+* Defines a "coordinate system"
+* If we take all combinations of
+we get the entire space R^3; the equation Ax→ = b→ has a solution for every b in R^3. Then we say that U→,V→, and W→ form a Basis!
+A basis for R^n is a collection of n independent vectors in R^n
+Equivalently, a basis is a collection of n vectors whose combinations cover the whole space.
+
+Or, a collection of vectors forms a basis whenever a matrix which has those vectors as its columns is invertible!
+
+####Nullspace
+* If I find the set/universe of vectors the satisfy Matrix A * Vector X = Vector 0’s, will it be a valid subspace?
+* The set of vectors of a matrix that satisfy the equation Vector(X)*Mat(A) = Vector(0)
+* If the the nullspace of a matrix consists of just {0} the must mean that all the columns in the matrix are linearly independent
+* NULLspace is the set of vectors that map a matrix transformation into ZERO
+
+#### Free Variable 
 
 
 

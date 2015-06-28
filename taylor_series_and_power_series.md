@@ -43,4 +43,12 @@ $$ f(x) = a_n = \frac{1}{n!}f^{n}(0)$$
 
 # Taylor Theorem for Errors
 
+Taylor's theorem describes the asymptotic behavior of the remainder term
+
+$$ R_n(x) = f(x) - P_n(x) $$
+
 ![](http://s5.postimg.org/99qx6xio7/residual.jpg)
+
+### Example:
+
+![](http://s5.postimg.org/n4p7ped3b/residue2.png)
